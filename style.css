@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    animation: color-change2 3s infinite; 
+    
+
+
+}
+h1:hover { 
+    animation: color-change 3s infinite; 
+}
+h1 { 
+    animation: color-change2 3s infinite; 
+}
+
+
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: rgb(0, 68, 255);
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+@keyframes color-change2 {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+  
+    20% {
+      color: rgb(255, 123, 0);
+    }
+  
+    40% {
+      color: rgb(208, 255, 0);
+    }
+    60% {
+      color: rgb(21, 255, 0);
+    }
+    80% {
+      color: rgb(0, 110, 255);
+      }
+    100% {
+      color: rgb(255, 0, 0);
+    }
+}
+
+
+@keyframes color-change3 {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+  
+    100% {
+      color: rgb(252, 252, 252);
+    }
+}
+
+
